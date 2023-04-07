@@ -1,0 +1,90 @@
+.form {
+    background-color: lightseagreen;
+    height: 2501px;
+    width: 1309px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+   }
+
+.father {
+    /* background-color: brown; */
+    height: 2100px;
+    width: 1100px;
+
+    display: flex;
+
+    
+}
+
+.container {
+    background-color: white;
+    height: 2000px;
+    width: 1000px;
+    
+    box-shadow: 10px 10px grey;
+   
+    
+}
+
+.input {
+    display: flex;
+    justify-content: space-evenly;
+
+    height: 40px;
+    /* width: 200px; */
+}
+
+
+.input1 {
+   
+  
+    height: 50px;
+
+    margin-left: 50px;
+
+}
+
+.input2 {
+   
+    width: 90%;
+    height: 50px;
+
+    margin: 100px 50px;
+
+}
+
+
+
+.button1 {
+    display: flex;
+    justify-content: flex-end;
+    /* height: 50px;
+    /* width: 159px; */
+
+
+    color: red;
+}
+
+
+button {
+   background-color:red;
+    
+    display: flex;
+    justify-content: flex-end;
+
+    height: 50px;
+    width: 250px;
+
+    margin-right: 40px;
+
+}
+
+
+.cloud {
+    height: 50px;
+    width: 50px;
+    
+}
