@@ -7,88 +7,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form</title>
 
-    <script src="https://kit.fontawesome.com/a09b5722c4.js" crossorigin="anonymous"></script>
+    <!-- <script src="https://kit.fontawesome.com/a09b5722c4.js" crossorigin="anonymous"></script> -->
 
-    <!-- <link rel="stylesheet" href="main.css"> -->
+    <link rel="stylesheet" href="main.css">
 
-    <style>
-        body {
-            background-color: brown;
-        }
-
-        .container {
-            background-color: beige;
-            
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            
-            margin: auto;
-            width: 800px;
-
-        }
-        .form {
-            margin: 20px;
-            background-color: aquamarine;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            padding: 20px;
-            border-radius: 5px;
-
-        }
-
-        .form_input {
-            margin: 10px;
-            width: 100%;
-            border-style: none;
-        }
-
-        .form_input .name {
-            width: 40%;
-            display: flex;
-            flex-direction: row;
-        }
-
-        .cloud {
-            position: absolute;
-            z-index: -1;
-        }
-
-        .form_submit {
-            background-color: rgb(231, 146, 0);
-            color: white;
-            margin: 10px;
-    padding: 10px;
-    border-radius: 5px;
-    border-style: none;
-        }
-
-
-
-    </style>
-
+   
 </head>
 
 <body>
     <div  class="container">
         <form class="form">
             <h1>Contact Details</h1>
-            <input class="form_input name" placeholder="Name" type="text">
-            <input class="form_input name" placeholder="Last name" type="text">
-            <input class="form_input" placeholder="Name:" type="text">
-            <input class="form_input" placeholder="City:" type="text">
-            <input class="form_input" placeholder="Contact Number:" type="tel">
-            <input class="form_input" placeholder="Business Email:" type="email">
-            <input class="form_input" type="checkbox">
-            <button class="form_submit" id="submit">Submit</button>
+            <input class="form-input name" placeholder="Name" type="text">
+            <input class="form-input name" placeholder="Last name" type="text">
+            <input class="form-input" placeholder="Name:" type="text">
+            <input class="form-input" placeholder="City:" type="text">
+            <input class="form-input" placeholder="Contact Number:" type="tel">
+            <input class="form-input" placeholder="Business Email:" type="email">
+            <input class="form-input" type="checkbox">
+            <button class="form-submit" id="submit">Submit</button>
         </form>
     </div>
+    
     <div class="cloud">
         <img src="./images/cloud.jpg" alt="cloud">
     </div>
+    
+    
 
 </body>
 

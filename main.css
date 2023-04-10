@@ -1,90 +1,72 @@
-.form {
-    background-color: lightseagreen;
-    height: 2501px;
-    width: 1309px;
 
+body {
+    background-color: brown;
     display: flex;
-    align-items: center;
-    justify-content: center;
-
-   }
-
-.father {
-    /* background-color: brown; */
-    height: 2100px;
-    width: 1100px;
-
-    display: flex;
-
-    
 }
 
 .container {
-    background-color: white;
-    height: 2000px;
-    width: 1000px;
-    
-    box-shadow: 10px 10px grey;
-   
-    
-}
-
-.input {
-    display: flex;
-    justify-content: space-evenly;
-
-    height: 40px;
-    /* width: 200px; */
-}
-
-
-.input1 {
-   
-  
-    height: 50px;
-
-    margin-left: 50px;
-
-}
-
-.input2 {
-   
-    width: 90%;
-    height: 50px;
-
-    margin: 100px 50px;
-
-}
-
-
-
-.button1 {
-    display: flex;
-    justify-content: flex-end;
-    /* height: 50px;
-    /* width: 159px; */
-
-
-    color: red;
-}
-
-
-button {
-   background-color:red;
+    background-color: beige;
     
     display: flex;
-    justify-content: flex-end;
-
-    height: 50px;
-    width: 250px;
-
-    margin-right: 40px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    margin: auto;
+    width: 800px;
 
 }
+.form {
+    margin: 20px;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 5px;
+
+}
+
+.form-input {
+    margin: 10px;
+    width: 100%;
+    border-style: none;
+}
+
+.form-input name {
+    width: 40%;
+    display: flex;
+    display: inline-block;
+    
+}
+/* .name  {
+    width: 40%;
+    /* display: flex; */
+    display: inline-block;
+    
+} */
+
 
 
 .cloud {
-    height: 50px;
-    width: 50px;
-    
+    /* position: absolute;
+    z-index: 5; */
+    position: relative;
+    bottom: 0;
+    right: 100px;
+   
 }
+
+.form-submit {
+    background-color: rgb(231, 146, 0);
+    color: white;
+    margin: 10px;
+padding: 10px;
+border-radius: 5px;
+border-style: none;
+}
+
+
+
+
