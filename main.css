@@ -36,36 +36,47 @@ h1 {
     border: solid 1px lightgrey;
 }
 
+.checkbox{
+  width: 40%;
+}
+
 .name {
   width: 40%;
     display: flex;
     display: inline-flex;
 }
 
+.button{
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+
+}
+
 .form-submit {
   background-color: rgb(231, 146, 0);
   color: white;
-  /* margin: 10px; */
   padding: 10px;
   border-radius: 5px;
   border-style: none;
   width: 40%;
-  /* margin-left: 200px; */
+  
 }
 
 
 .cloud {
-    /* position: absolute;
-    z-index: 5; */
-      /* background-image: url("images/cloud.jpg"); */
+    position: absolute; 
+    z-index: 5; 
+    background-image: url("images/cloud.jpg");
     position: absolute;
-    /* bottom: 0; */
-    /* right: 100px; */
+    bottom: 0;
+    right: 100px; 
     top: 150px;
     left: 300px;
     z-index: -1;
      filter: blur(6px);
-  /* -webkit-filter: blur(6px); */
+    -webkit-filter: blur(6px); 
    
 }
 
@@ -75,7 +86,7 @@ h1 {
   height: 100px;
   border-radius: 150px;	
   box-shadow: 10px 10px rgba(167, 34, 34, 0.2);
-  /* animation: move 3s infinite; */
+  animation: move 3s infinite; 
   position: absolute;
   top: 150px;
   left: 500px;
@@ -106,14 +117,14 @@ h1 {
   right: 40px;
 }
 
-/* @keyframes move {
+@keyframes move {
   0% {
     transform: translatex(0);
   }
   50% {
     transform: translatex(-40px);
   }
-} */
+}
 
 
 
