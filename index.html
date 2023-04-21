@@ -8,24 +8,59 @@
     <title>Form</title>
 
     <link rel="stylesheet" href="main.css">
+    <style>
+        body {
+            background-color: rgb(117, 28, 28);
+        }
+        .form2 {
+            background-color: aliceblue;
+            width: 500px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            margin: 5;
+            gap: 9%;
+        }
+
+        .form-input2 {
+            width: 100%;
+        }
+
+        .name2 {
+            width: 40%;
+
+        }
+    </style>
 </head>
 
 <body>
     <form class="form">
         <h1>Contact Details</h1>
         <div class="input-name">
-            <input type="text" class=" form-input name" placeholder="Name" >
-            <input  type="text" class=" form-input name" placeholder="Last name">
+            <input type="text" class=" form-input name" placeholder="Name">
+            <input type="text" class=" form-input name" placeholder="Last name">
         </div>
         <input class="form-input" placeholder="Name:" type="text">
         <input class="form-input" placeholder="City:" type="text">
         <input class="form-input" placeholder="Contact Number:" type="tel">
         <input class="form-input" placeholder="Business Email:" type="email">
-       
+
         <div class="button">
             <input class="form-input checkbox" type="checkbox">
             <button class="form-submit" id="submit">Submit</button>
         </div>
+    </form>
+    <form class="form2" id="submit">
+        <h1>Contact Details 2</h1>
+
+        <input type="text" class=" form-input2 name2" placeholder="Name" required>
+        <input type="text" class=" form-input2 name2" placeholder="Last name">
+        <input class="form-input2" placeholder="Name:" type="text">
+        <input class="form-input2" placeholder="City:" type="text">
+        <input class="form-input2" placeholder="Contact Number:" type="tel">
+        <input class="form-input2" placeholder="Business Email:" type="email">
+        <input class="form-input2 checkbox" type="checkbox">
+        <button class="form-submit2" >Submit</button>
     </form>
     <div class="cloud" id="cloud">
     </div>
